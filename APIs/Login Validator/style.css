@@ -1,0 +1,17 @@
+input:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+  
+  input:placeholder {
+    color: #cccccc;
+  }
+  .invalid {
+      border-bottom: 2px solid #e95f5f !important;
+  }
+  .inval-pass {
+      border-bottom: 2px solid #e9c95f !important;
+  }
+  .valid_ {
+    border-bottom: 2px solid #6fe95f !important;
+  }
