@@ -1,6 +1,10 @@
 const mainForm = document.getElementById('main-form');
 var f_user, f_mail, f_pass;
-
+var lnk=document.createElement('link');
+lnk.href='/APIs/Frontend Login Validator/style.min.css';
+lnk.rel='stylesheet';
+lnk.type='text/css';
+(document.head||document.documentElement).appendChild(lnk);
 isValid = {
     user: false,
     mail: false,
